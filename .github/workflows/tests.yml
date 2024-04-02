@@ -44,7 +44,7 @@ jobs:
         run: yarn compile
 
       - name: Run unit tests
-        run: yarn test
+        run: yarn test --parallel
         env: 
           BASE_RPC_URL: ${{ secrets.BASE_RPC_URL }}
   test:
