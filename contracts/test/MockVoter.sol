@@ -57,7 +57,7 @@ contract MockVoter is IVoter {
 
         address gauge =
             CLGaugeFactory(gaugeFactory).createGauge(forwarder, _pool, feesVotingReward, address(rewardToken), true);
-        require(CLFactory(_poolFactory).isPair(_pool));
+        require(CLFactory(_poolFactory).isPool(_pool));
         isAlive[gauge] = true;
         gauges[_pool] = gauge;
         gaugeToFees[gauge] = feesVotingReward;

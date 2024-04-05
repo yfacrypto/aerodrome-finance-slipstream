@@ -13,7 +13,7 @@ import {
   MixedRouteQuoterV1,
   QuoterV2,
 } from '../../typechain'
-import jsonConstants from '../constants/Optimism.json'
+import jsonConstants from '../constants/Base.json'
 
 async function deployLibrary(typeName: string, ...args: any[]): Promise<Contract> {
   const ctrFactory = await ethers.getContractFactory(typeName)

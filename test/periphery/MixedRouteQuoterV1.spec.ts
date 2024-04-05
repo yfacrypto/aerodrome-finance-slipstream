@@ -18,7 +18,7 @@ import snapshotGasCost from './shared/snapshotGasCost'
 
 import { abi as POOL_V2_ABI } from './shared/abis/V2Pool.json'
 import { abi as FACTORY_V2_ABI } from './shared/abis/V2Factory.json'
-import jsonConstants from '../../script/constants/Optimism.json'
+import jsonConstants from '../../script/constants/Base.json'
 
 const factoryV2Address = jsonConstants.factoryV2
 
@@ -71,8 +71,8 @@ describe('MixedRouteQuoterV1', function () {
       params: [
         {
           forking: {
-            jsonRpcUrl: `${process.env.OPTIMISM_RPC_URL}`,
-            blockNumber: 114000000,
+            jsonRpcUrl: `${process.env.BASE_RPC_URL}`,
+            blockNumber: 12670000,
           },
         },
       ],

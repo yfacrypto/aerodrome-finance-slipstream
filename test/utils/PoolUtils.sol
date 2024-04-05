@@ -46,7 +46,7 @@ abstract contract PoolUtils is Test, Constants, Events {
         assertEq(factory.allPools(factory.allPoolsLength() - 1), create2Addr);
         assertEq(factory.getPool(token0, token1, tickSpacing), create2Addr);
         assertEq(factory.getPool(token1, token0, tickSpacing), create2Addr);
-        assertEq(factory.isPair(create2Addr), true);
+        assertEq(factory.isPool(create2Addr), true);
         assertEq(pool.factory(), address(factory));
         assertEq(pool.token0(), TEST_TOKEN_0);
         assertEq(pool.token1(), TEST_TOKEN_1);

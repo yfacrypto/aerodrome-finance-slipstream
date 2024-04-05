@@ -14,7 +14,7 @@ contract NotifyRewardAmountWithoutClaimForkTest is BaseForkFixture {
         pool = CLPool(
             poolFactory.createPool({
                 tokenA: address(weth),
-                tokenB: address(op),
+                tokenB: address(dai),
                 tickSpacing: TICK_SPACING_60,
                 sqrtPriceX96: encodePriceSqrt(1, 1)
             })

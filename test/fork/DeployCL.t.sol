@@ -46,7 +46,7 @@ contract DeployCLForkTest is Test {
     CustomUnstakedFeeModule public unstakedFeeModule;
 
     function setUp() public {
-        vm.createSelectFork({urlOrAlias: "optimism", blockNumber: 109241151});
+        vm.createSelectFork({urlOrAlias: "base", blockNumber: 12670000});
         deployCL = new DeployCL();
 
         string memory root = vm.projectRoot();

@@ -8,10 +8,10 @@ abstract contract BaseForkFixture is BaseFixture {
     using stdJson for string;
 
     string public addresses;
-    IERC20 public op;
+    IERC20 public dai;
 
     function setUp() public virtual override {
-        vm.createSelectFork({urlOrAlias: "optimism", blockNumber: 109241151});
+        vm.createSelectFork({urlOrAlias: "base", blockNumber: 12670000});
 
         string memory root = vm.projectRoot();
         string memory path = string(abi.encodePacked(root, "/test/fork/addresses.json"));
@@ -20,13 +20,13 @@ abstract contract BaseForkFixture is BaseFixture {
         // set up contracts after fork
         BaseFixture.setUp();
 
-        nftCallee = new NFTManagerCallee(address(weth), address(op), address(nft));
+        nftCallee = new NFTManagerCallee(address(weth), address(dai), address(nft));
 
-        deal({token: address(op), to: users.alice, give: TOKEN_1 * 100});
+        deal({token: address(dai), to: users.alice, give: TOKEN_1 * 100});
         deal({token: address(weth), to: users.alice, give: TOKEN_1 * 100});
 
         vm.startPrank(users.alice);
-        op.approve(address(nftCallee), type(uint256).max);
+        dai.approve(address(nftCallee), type(uint256).max);
         weth.approve(address(nftCallee), type(uint256).max);
         vm.stopPrank();
     }
@@ -34,7 +34,7 @@ abstract contract BaseForkFixture is BaseFixture {
     function deployDependencies() public virtual override {
         factoryRegistry = IFactoryRegistry(vm.parseJsonAddress(addresses, ".FactoryRegistry"));
         weth = IERC20(vm.parseJsonAddress(addresses, ".WETH"));
-        op = IERC20(vm.parseJsonAddress(addresses, ".OP"));
+        dai = IERC20(vm.parseJsonAddress(addresses, ".DAI"));
         voter = IVoter(vm.parseJsonAddress(addresses, ".Voter"));
         rewardToken = ERC20(vm.parseJsonAddress(addresses, ".Velo"));
         votingRewardsFactory = IVotingRewardsFactory(vm.parseJsonAddress(addresses, ".VotingRewardsFactory"));
