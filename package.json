@@ -1,12 +1,12 @@
 {
-  "name": "@velodrome-finance/concentrated-liquidity",
+  "name": "@aerodrome-finance/slipstream",
   "description": "Core smart contracts of CL",
   "license": "BUSL-1.1",
   "publishConfig": {
     "access": "public"
   },
   "version": "1.0.1",
-  "homepage": "https://velodrome.finance",
+  "homepage": "https://aerodrome.finance",
   "keywords": [
     "uniswap",
     "core",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/velodrome-finance/concentrated-liquidity"
+    "url": "https://github.com/aerodrome-finance/slipstream"
   },
   "files": [
     "contracts/core/interfaces",

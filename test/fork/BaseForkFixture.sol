@@ -36,7 +36,7 @@ abstract contract BaseForkFixture is BaseFixture {
         weth = IERC20(vm.parseJsonAddress(addresses, ".WETH"));
         dai = IERC20(vm.parseJsonAddress(addresses, ".DAI"));
         voter = IVoter(vm.parseJsonAddress(addresses, ".Voter"));
-        rewardToken = ERC20(vm.parseJsonAddress(addresses, ".Velo"));
+        rewardToken = ERC20(vm.parseJsonAddress(addresses, ".Aero"));
         votingRewardsFactory = IVotingRewardsFactory(vm.parseJsonAddress(addresses, ".VotingRewardsFactory"));
         escrow = IVotingEscrow(vm.parseJsonAddress(addresses, ".VotingEscrow"));
         minter = IMinter(vm.parseJsonAddress(addresses, ".Minter"));
