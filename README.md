@@ -43,14 +43,14 @@ Velodrome has a live bug bounty hosted on ([Immunefi](https://immunefi.com/bount
 
 | Name               | Address                                                                                                                               |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| GaugeFactory               | [0x282AC0eA96493650F1A5E5e5d20490C782F1592a](https://optimistic.etherscan.io/address/0x282AC0eA96493650F1A5E5e5d20490C782F1592a#code) |
-| GaugeImplementation               | [0x6D600CC5F14B81665606Ca1985605464BA332Bad](https://optimistic.etherscan.io/address/0x6D600CC5F14B81665606Ca1985605464BA332Bad#code) |
-| MixedQuoter               | [0xa4ac92a0F54f1a447c55a4082c90742F5E76Df62](https://optimistic.etherscan.io/address/0xa4ac92a0F54f1a447c55a4082c90742F5E76Df62#code) |
-| NonfungiblePositionManager               | [0xbB5DFE1380333CEE4c2EeBd7202c80dE2256AdF4](https://optimistic.etherscan.io/address/0xbB5DFE1380333CEE4c2EeBd7202c80dE2256AdF4#code) |
-| NonfungibleTokenPositionDescriptor               | [0x2c998811b2Af32416C8ff4c0ea85f0e7Ed834ff8](https://optimistic.etherscan.io/address/0x2c998811b2Af32416C8ff4c0ea85f0e7Ed834ff8#code) |
-| PoolFactory               | [0x548118C7E0B865C2CfA94D15EC86B666468ac758](https://optimistic.etherscan.io/address/0x548118C7E0B865C2CfA94D15EC86B666468ac758#code) |
-| PoolImplementation               | [0xE0A596c403E854FFb9C828aB4f07eEae04A05D37](https://optimistic.etherscan.io/address/0xE0A596c403E854FFb9C828aB4f07eEae04A05D37#code) |
-| QuoterV2               | [0xA2DEcF05c16537C702779083Fe067e308463CE45](https://optimistic.etherscan.io/address/0xA2DEcF05c16537C702779083Fe067e308463CE45#code) |
-| CustomSwapFeeModule               | [0xA9c319945f706dd1809819321a2e31C9A169e9c1](https://optimistic.etherscan.io/address/0xA9c319945f706dd1809819321a2e31C9A169e9c1#code) |
-| CustomUnstakedFeeModule               | [0x5A993209065ea74b50E23a378ddB7068189345D0](https://optimistic.etherscan.io/address/0x5A993209065ea74b50E23a378ddB7068189345D0#code) |
-| SugarHelper               | [0xa4420A6F8A33cDF00ac57010A8834a101829285A](https://optimistic.etherscan.io/address/0xa4420A6F8A33cDF00ac57010A8834a101829285A#code) |
+| GaugeFactory               | [0xD30677bd8dd15132F251Cb54CbDA552d2A05Fb08](https://basescan.org/address/0xD30677bd8dd15132F251Cb54CbDA552d2A05Fb08#code) |
+| GaugeImplementation               | [0xF5601F95708256A118EF5971820327F362442D2d](https://basescan.org/address/0xF5601F95708256A118EF5971820327F362442D2d#code) |
+| MixedQuoter               | [0x0A5aA5D3a4d28014f967Bf0f29EAA3FF9807D5c6](https://basescan.org/address/0x0A5aA5D3a4d28014f967Bf0f29EAA3FF9807D5c6#code) |
+| NonfungiblePositionManager               | [0x827922686190790b37229fd06084350E74485b72](https://basescan.org/address/0x827922686190790b37229fd06084350E74485b72#code) |
+| NonfungibleTokenPositionDescriptor               | [0x01b0CaCB9A8004e08D075c919B5dF3b59FD53c55](https://basescan.org/address/0x01b0CaCB9A8004e08D075c919B5dF3b59FD53c55#code) |
+| PoolFactory               | [0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A](https://basescan.org/address/0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A#code) |
+| PoolImplementation               | [0xeC8E5342B19977B4eF8892e02D8DAEcfa1315831](https://basescan.org/address/0xeC8E5342B19977B4eF8892e02D8DAEcfa1315831#code) |
+| QuoterV2               | [0x254cF9E1E6e233aa1AC962CB9B05b2cfeAaE15b0](https://basescan.org/address/0x254cF9E1E6e233aa1AC962CB9B05b2cfeAaE15b0#code) |
+| CustomSwapFeeModule               | [0xF4171B0953b52Fa55462E4d76ecA1845Db69af00](https://basescan.org/address/0xF4171B0953b52Fa55462E4d76ecA1845Db69af00#code) |
+| CustomUnstakedFeeModule               | [0x0AD08370c76Ff426F534bb2AFFD9b5555338ee68](https://basescan.org/address/0x0AD08370c76Ff426F534bb2AFFD9b5555338ee68#code) |
+| SugarHelper               | [0x0AD09A66af0154a84e86F761313d02d0abB6edd5](https://basescan.org/address/0x0AD09A66af0154a84e86F761313d02d0abB6edd5#code) |
